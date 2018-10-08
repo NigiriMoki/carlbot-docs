@@ -36,7 +36,7 @@ You can add more than one punishment by separating them with commas.
 | **linkspam &lt;rate&gt; \[per=1\]** | !linkspam 1 | Sets the link rate limit. Use the example command to block all links. |
 | **linkspam bl &lt;links...&gt;** | !linkspam bl reddit.com twitter.com | Blacklists one or more links. |
 | **linkspam wl &lt;links...&gt;** | !linkspam wl discordapp.com facebook.com | Whitelists one or more links |
-| **linkspam unbl &lt;links...&gt;** | !linkspam unbl reddit.com | Removes one ore more links from the blacklist |
+| **linkspam unbl &lt;links...&gt;** | !linkspam unbl reddit.com | Removes one or more links from the blacklist |
 | **linkspam unwl &lt;links...&gt;** | !linkspam unwl discordapp.com | Removes one or more links from the whitelist |
 | **linkspam clearwl** | -- | Clears the whitelist |
 | **linkspam clearbl** | -- | Clears the blacklist |
