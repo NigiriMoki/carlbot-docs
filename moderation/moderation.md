@@ -8,7 +8,7 @@
 | **muterole &lt;role&gt;** | !muterole kids table | Selects a role to use for the mute command |
 | **muterole create \[name='muted'\]** | !muterole create shhh | Creates a new role, adds the role as a channel override with "send messages" turned off for all text channels and sets it as the server's muterole. |
 | **muterole update** |  | Updates the channel overwrites for the currently chosen muterole in any channels that miss them |
-| **mute &lt;@member&gt; \[time \[reason\]\]** | !mute @Carl\#0001 20h45m spamming | Mutes a member \(using the muterole, read above\) for the specified time. If no time is given, it will mute indefinitely. If a reason is given, it shows up in the mod logs. |
+| **mute &lt;@member&gt; \[time\] \[reason\]** | !mute @Carl\#0001 20h45m spamming | Mutes a member \(using the muterole, read above\) for the specified time. If no time is given, it will mute indefinitely. If a reason is given, it shows up in the mod logs. |
 | **unmute &lt;@member&gt;** | !unmute @Carl\#0001 | Unmutes a member |
 | **kick &lt;@member&gt; \[reason\]** | !kick @Carl\#0001 racism | Kicks a member. Reason shows up in the modlogs and in audit logs |
 | **softban &lt;@member&gt; \[days=2\]\[reason\]** | !softban @Carl\#0001 go away | Bans and immediately unbans a member to clear 48 hours of message history. |
